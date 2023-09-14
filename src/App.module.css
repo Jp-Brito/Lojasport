@@ -1,0 +1,42 @@
+:root {
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --grayText: #909090;
+  --grayBorder: #c0bebe;
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(320, 5%, 88%);
+  --itemCardHover: hsl(323, 27%, 87%);
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  background-color: white;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.container>p {
+  background-color: #0bbcc9;
+}
+
+.container>main {
+  background-color: #440bc9;
+  grid-row: 2/4;
+}

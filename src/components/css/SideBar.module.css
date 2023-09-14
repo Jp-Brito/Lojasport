@@ -1,0 +1,26 @@
+.container {
+  grid-row: 1/5;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-right: 1px solid var(--grayBorder);
+}
+
+.logo {
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid var(--grayBorder);
+}
+
+.sideBar p {
+  padding-left: 45px;
+}
+
+div ul li {
+  color: var(--grayText);
+  list-style-type: none;
+  accent-color: rgb(104, 104, 104);
+  font-size: var(--smallFontSize);
+  padding-right: 20px;
+}

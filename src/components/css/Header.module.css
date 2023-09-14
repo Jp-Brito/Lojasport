@@ -1,0 +1,21 @@
+.containerHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 150px;
+  align-items: center;
+  border-bottom: 1px solid var(--grayBorder);
+}
+
+.headerBusca input {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0dfdf6e;
+}
+
+.icons a {
+  padding: 0 10px 0 10px;
+  color: black;
+  border-radius: 50%;
+}
